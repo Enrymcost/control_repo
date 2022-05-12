@@ -6,7 +6,7 @@ node 'master.puppet.vm' {
   file {'/root/README' :
     ensure => file,
     content => “Welcome to”,
-    owner => 'root',
+    owner => 'root'
     }
 }
 node /^web/ { 
